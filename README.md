@@ -1,10 +1,10 @@
 # Addition Experiment for Measuring Extrapolation
 
+![figure1](image/fig1.png)
+
 This repository provides the implementation of the experiment of the paper "Logical Tasks for Measuring Extrapolation and Rule Comprehension."
 
 ## Introduction
-
-![figure1](image/fig1.png)
 
 This experiment studies the extrapolation behavior of typical neural networks in the addition task. We prepared three types of models; MLP, Seq2seq and Transformer.
 
