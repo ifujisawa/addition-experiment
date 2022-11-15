@@ -1,0 +1,17 @@
+train_params:
+  model_type: transformer
+  experiment_name: sub_experiment/transformer/000
+  num_epoch: 50
+  batch_size: 256
+  eval_batch_size: 4096
+  train_size: 0.8
+  val_size: 0.1
+data_params:
+  max_eqn_letters: 10
+  max_ans_letters: 10
+  arithmetic: add
+  min_num: 500
+  max_num: 2500
+  num_examples: 100000
+others:
+  save_all: true

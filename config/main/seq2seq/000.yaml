@@ -1,0 +1,17 @@
+train_params:
+  model_type: seq2seq
+  experiment_name: main_experiment/seq2seq/000
+  num_epoch: 100
+  batch_size: 256
+  eval_batch_size: 4096
+  train_size: 0.8
+  val_size: 0.1
+data_params:
+  max_eqn_letters: 10
+  max_ans_letters: 10
+  arithmetic: add
+  min_num: 500
+  max_num: 1500
+  num_examples: 50000
+others:
+  save_all: true
