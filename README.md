@@ -4,6 +4,8 @@ This repository provides the implementation of the experiment of the paper "Logi
 
 ## Introduction
 
+![figure1](image/fig1.png)
+
 This experiment studies the extrapolation behavior of typical neural networks in the addition task. We prepared three types of models; MLP, Seq2seq and Transformer.
 
 This addition task is a supervised learning setup. The inputs consist of two integers and the output is summation of them. Integers and signs like +, = are represented by multiple symbols like natural language processing. Examples for training and test are randomly generated.
